@@ -1,0 +1,159 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.h-fill-available {
+  height: -webkit-fill-available;
+}
+
+.font-size-9 {
+  font-size: 0.5625rem;
+}
+
+.font-size-12 {
+  font-size: 0.75rem;
+}
+
+.font-size-14 {
+  font-size: 0.875rem;
+}
+
+.font-size-26 {
+  font-size: 1.625rem;
+}
+
+.font-size-36 {
+  font-size: 2rem;
+}
+
+.recent-activity-subtitle {
+  color: #bcc7cf;
+}
+
+.recent-activity-body {
+  color: #999999;
+}
+
+.overflow-y {
+  overflow-y: auto;
+}
+
+.bg-pinky-red {
+  background-color: #f11359;
+}
+
+.rounded-1rem {
+  border-radius: 1rem;
+}
+
+.rounded-2rem {
+  border-radius: 2rem;
+}
+
+.p-4-not-important {
+  padding: 1.5rem;
+}
+
+.online-status {
+  width: 35%;
+  height: 35%;
+  border: 2px solid white;
+  bottom: -10%;
+  right: 0;
+}
+
+.main {
+  background-color: #f7f8fd;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  color: #b3b3b3;
+}
+
+.bullet {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 2em;
+  background-color: #4da1ff;
+}
+
+.oval {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  border-radius: 2em;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.103283);
+}
+
+.oval-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #E4E4E4;
+}
+
+.oval-item.active {
+  background-color: #f11359;
+}
+
+.collapse-custom {
+  height: 0;
+  /* display: none; */
+  overflow: hidden;
+  transition: all .2s ease-out;
+}
+
+.collapse-custom.open {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  overflow-y: auto;
+  transition: all .2s ease-out;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
